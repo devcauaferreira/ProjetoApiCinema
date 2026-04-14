@@ -130,8 +130,11 @@ body {
     color: #ccc;
 
 }
-
-h1,
-h2{
+/* Titulo e Titulo Favoritos */
+h1, h2{
     color: #ccc;
+}
+/* Nome dos filmes */
+h3{
+    color: #000;
 }

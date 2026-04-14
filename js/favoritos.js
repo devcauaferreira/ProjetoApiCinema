@@ -52,7 +52,7 @@ function carregarFavoritos() {
         return `
             <div class="card">
                 <img src="${img}" alt="${fav.title}">
-                <h2>${fav.title}</h2>
+                <h3>${fav.title}</h3>
                 <p>Data: ${fav.release_date}</p>
                 <button onclick="removerFavorito(${fav.id})">
                     ❌ Remover

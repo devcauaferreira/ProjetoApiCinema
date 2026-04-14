@@ -68,7 +68,7 @@ function mostrarFilmes(filmes) {
     return `
       <div class="card">
         <img src="${img}" alt="${f.title}">
-        <h2>${f.title}</h2>
+        <h3>${f.title}</h3>
         <p>${gerarEstrelas(f.vote_average)} (${nota})</p>
         <p>Data: ${f.release_date}</p>
         <button onclick='adicionarFavorito(${JSON.stringify(f)})'>
@@ -205,7 +205,7 @@ function buscaFilme(event) {
         return `
           <div class="card">
             <img src="${img}" alt="${f.title}">
-            <h2>${f.title}</h2>
+            <h3>${f.title}</h3>
             <p>${gerarEstrelas(f.vote_average)} (${notaFormatada})</p>
             <p>Data: ${f.release_date}</p>
             <p>Gênero: ${nomesGeneros}</p>
