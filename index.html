@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineFlix</title>
+    <!-- Fonte Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Cineflix-->
+    <link rel="icon" type="image/png" href="images/cinema.jpg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <img src="images/cinema.jpg" alt="CineFlix" width="30" height="30">
+
+        <a href="index.html">
+            <h1>CineFlix</h1>
+        </a>
+
+        <a href="favoritos.html" class="btn-favoritos">⭐ Favoritos</a>
+
+    </div>
+
+
+    <div class="formulario">
+
+        <form id="formId" onsubmit="buscaFilme(event)">
+            <input type="text" id="filme" placeholder="Buscar por um Filme">
+            <button type="submit">🔍</button>
+
+        </form>
+        <button class="btn-surpresa" onclick="sugerirFilme()">🎲Me Surpreenda </button>
+
+    </div>
+
+    <section id="resultados">
+        <div class="card">
+
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
