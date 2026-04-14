@@ -15,6 +15,7 @@ O **CineFlix** é uma aplicação front-end que consome a API do TMDB para exibi
 * 🔥 Listagem de filmes populares
 * 🔍 Busca por nome de filme
 * ❤️ Sistema de favoritos (LocalStorage)
+* 📂 Página de favoritos
 * 🎲 Botão **"Me Surpreenda"** (filme aleatório)
 * ⭐ Avaliação dos filmes em estrelas
 * 📅 Exibição da data de lançamento
@@ -45,23 +46,29 @@ A chave da API está diretamente no código. Em projetos reais, o ideal é prote
 
 ---
 
-## 📁 Estrutura básica
+## 📁 Estrutura do projeto
 
 ```
 📦 ProjetoApiCinema
+ ┣ 📂 css
+ ┃ ┗ 📜 estilo.css
+ ┣ 📂 imagens
+ ┃ ┗ 📜 cinema.jpg
+ ┣ 📂 js
+ ┃ ┣ 📜 script.js
+ ┃ ┗ 📜 favoritos.js
  ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
+ ┗ 📜 favoritos.html
 ```
 
 ---
 
 ## 💡 Possíveis melhorias
 
-* Página de favoritos dedicada
 * Paginação de resultados
 * Melhor responsividade para mobile
 * Página de detalhes do filme
+* Animações e melhorias visuais
 
 ---
 
