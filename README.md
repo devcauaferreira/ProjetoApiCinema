@@ -33,49 +33,35 @@ O **CineFlix** é uma aplicação front-end que consome a API do TMDB para exibi
 
 ---
 
-## 🔑 API
+## ▶️ Como executar
 
-Este projeto utiliza a API do TMDB para:
-
-* Buscar filmes populares
-* Realizar buscas por nome
-* Obter dados como nota, imagem e data
-
-⚠️ **Observação:**
-A chave da API está diretamente no código. Em projetos reais, o ideal é protegê-la utilizando variáveis de ambiente.
+1. Baixe ou clone o repositório
+2. Abra a pasta do projeto
+3. Execute o arquivo `index.html` no navegador
 
 ---
 
 ## 📁 Estrutura do projeto
 
 ```
-📦 ProjetoApiCinema
- ┣ 📂 css
- ┃ ┗ 📜 estilo.css
- ┣ 📂 imagens
- ┃ ┗ 📜 cinema.jpg
- ┣ 📂 js
- ┃ ┣ 📜 script.js
- ┃ ┗ 📜 favoritos.js
- ┣ 📜 index.html
- ┗ 📜 favoritos.html
+ProjetoApiCinema
+├── css/
+│   └── estilo.css
+├── imagens/
+│   └── cinema.jpg
+├── js/
+│   ├── script.js
+│   └── favoritos.js
+├── index.html
+└── favoritos.html
 ```
 
 ---
 
-## 💡 Possíveis melhorias
+## 👨‍💻 Autores
 
-* Paginação de resultados
-* Melhor responsividade para mobile
-* Página de detalhes do filme
-* Animações e melhorias visuais
-
----
-
-## 👨‍💻 Autor
-
-**Cauã Ferreira**
-📧 [dev.cauaferreira@gmail.com](mailto:dev.cauaferreira@gmail.com)
+Cauã Ferreira                                                                                             
+Gabriel Henrique
 
 ---
 
